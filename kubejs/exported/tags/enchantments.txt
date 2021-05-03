@@ -1,0 +1,9 @@
+To refresh this file, delete it and run /reload command again! Last updated: Apr 11, 2021 1:57:55 AM
+
+#allurement:unusable_on_horse_armor
+- minecraft:aqua_affinity
+- allurement:alleviating
+- allurement:vengeance
+
+#forge:soulbound
+- corpsecomplex:soulbinding

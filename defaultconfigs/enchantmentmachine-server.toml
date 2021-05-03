@@ -1,0 +1,6 @@
+
+#Server configuration settings
+[server]
+	#Whether items can be disenchanted. More vanilla like would be false
+	allowDisenchantingItems = true
+

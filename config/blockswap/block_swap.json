@@ -1,0 +1,18 @@
+{
+  "eidolon:lead_ore": "thermal:lead_ore",
+  "occultism:copper_ore": "thermal:copper_ore",
+  "occultism:silver_ore": "thermal:silver_ore",
+  "immersiveengineering:ore_copper": "thermal:copper_ore",
+  "immersiveengineering:ore_lead": "thermal:lead_ore",
+  "immersiveengineering:ore_silver": "thermal:silver_ore",
+  "immersiveengineering:ore_nickel": "thermal:nickel_ore",
+  "immersiveengineering:ore_uranium": "mekanism:uranium_ore",
+  "create:copper_ore": "thermal:copper_ore",
+  "mysticalworld:copper_ore": "thermal:copper_ore",
+  "mysticalworld:lead_ore": "thermal:lead_ore",
+  "mysticalworld:silver_ore": "thermal:silver_ore",
+  "mysticalworld:tin_ore": "thermal:tin_ore",
+  "mekanism:copper_ore": "thermal:copper_ore",
+  "mekanism:tin_ore": "thermal:tin_ore",
+  "mekanism:lead_ore": "thermal:lead_ore"
+}
