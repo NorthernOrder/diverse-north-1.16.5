@@ -25,7 +25,7 @@
 	enablePetArmory = true
 	#If set to "OWNER", this will prevent owners of pets from attacking their own pet. If set to "ALL", this prevents all players from attacking anyone's pet
 	#Allowed Values: DISABLED, OWNER, ALL
-	disablePetFriendlyFire = "OWNER"
+	disablePetFriendlyFire = "DISABLED"
 	#If enabled, all bees will always be half the size they are in Vanilla. Does not affect breeding or hitboxes
 	enableSmallBees = false
 	#Allows chicken feathers to be plucked w/ shears
@@ -99,4 +99,3 @@
 	enableGuideNotifier = false
 	#Makes all anvil tool repairs always cost 1 level of XP
 	enableCheapAnvilRepair = true
-
