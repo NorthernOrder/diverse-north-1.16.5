@@ -14,7 +14,7 @@
 	#Max amount of schematics to be cached on the server.
 	#Range: 0 ~ 100000
 	maxCachedSchematics = 100
-	#Ma, ModRecipeProvider.getDefaultCriterion(block)x amount of blocks checked by a possible worker
+	#Max amount of blocks checked by a possible worker.
 	#Range: 0 ~ 100000
 	maxBlocksChecked = 1000
 	#structurize.config.schematicblocklimit.comment

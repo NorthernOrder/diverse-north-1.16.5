@@ -37,6 +37,9 @@
 	#
 	#Allow the standard in-world Shadow Steel recipe.
 	enableShadowSteelRecipe = true
+	#
+	#When true, allows the Mechanical Press to process entire stacks at a time.
+	bulkPressing = false
 
 #
 #Parameters and abilities of Create's kinetic mechanisms
@@ -203,6 +206,8 @@
 				gearbox = 0.0
 				hose_pulley = 4.0
 				mechanical_crafter = 2.0
+				alternator = 8.0
+				rolling_mill = 8.0
 
 			#
 			#[in Stress Units]

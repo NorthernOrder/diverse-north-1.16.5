@@ -370,6 +370,15 @@
 	#Caliburn Smite and Morgan Ball Mana Cost
 	#Range: 0 ~ 100000000
 	CALIBURN_MORGAN_ABILITY_MANA_COST = 300
+	#Speed of projectiles shot from the weapon projectile bow
+	#Range: 0.0 ~ 1.0E7
+	WEAPON_SHOOTER_PROJECTILE_SPEED = 3.0
+	#Damage multiplier for projectiles shot from the weapon projectile bow
+	#Range: 0.0 ~ 1.0E7
+	WEAPON_SHOOTER_DAMAGE_MULTIPLIER = 1.0
+	#Weapon projectile bow durability
+	#Range: 0 ~ 10000000
+	WEAPON_SHOOTER_DURABILITY = 30
 
 [exchange]
 	#This is how often the circle changes a layer underneath it
@@ -573,6 +582,11 @@
 	HEAVENS_CUP_ELEVEN_EFFECT = "wither"
 	#This is the effect that is applied when the network has multiples of 13.
 	HEAVENS_CUP_THIRTEEN_EFFECT = "levitation"
+	#Mystic Staff Creates Rain and Thunder
+	MYSTIC_STAFF_BIG_RAIN = true
+	#How long Rho Aias lasts
+	#Range: 0 ~ 100000000
+	RHO_AIAS_LIFE = 1200
 
 [eyes]
 	#This is the cost of using the scroll
@@ -763,7 +777,7 @@
 	#Ripper Gives Invisibility
 	RIPPER_GIVES_INVIS = true
 	#Ripper Attack Speed
-	#Range: 0.0 ~ 1000000.0
+	#Range: -1000000.0 ~ 1000000.0
 	RIPPER_SPEED = 3.0
 	#Ripper Attack Damage
 	#Range: 0.0 ~ 1000000.0
@@ -835,6 +849,19 @@
 	#Geas Mana Regen
 	#Range: 0.0 ~ 1.0E8
 	MANA_REGEN_PER_GEAS = 0.5
+	#Ripper Movement Speed
+	#Range: -1.0E7 ~ 1000000.0
+	RIPPER_MOVEMENT_SPEED = 0.05
+	#Fallen Down Beam Mode Blocks In
+	FALLEN_DOWN_BEAM_IN = ["minecraft:grass_block", "minecraft:sand", "minecraft:red_sand", "minecraft:cobblestone", "minecraft:clay", "minecraft:ice", "minecraft:packed_ice", "minecraft:blue_ice"]
+	#Fallen Down Beam Mode Blocks Out
+	FALLEN_DOWN_BEAM_OUT = ["minecraft:dirt", "minecraft:glass", "minecraft:red_stained_glass", "minecraft:stone", "minecraft:terracotta", "minecraft:water", "minecraft:water", "minecraft:water"]
+	#Fallen Down Beam Damage
+	#Range: 0.0 ~ 1.0E9
+	FALLEN_DOWN_BEAM_DAMAGE = 2.0
+	#Fallen Down Beam Growth
+	#Range: 0.0 ~ 1.0E9
+	FALLEN_DOWN_BEAM_GROWTH = 0.12
 
 [kodoku]
 	#mahoutsukai.config.kodoku_fire_chance.comment
@@ -948,4 +975,8 @@
 	MYSTIC_CODE_FIRST_SORCERY_BLACKLIST = []
 	#GameStages Enabled
 	GAMESTAGES_ENABLED = false
+	#Mystic Code Enchant Blacklist
+	MYSTIC_CODE_ENCHANT_BLACKLIST = []
+	#Spell Creation Blacklist
+	SPELL_BLACKLIST = []
 

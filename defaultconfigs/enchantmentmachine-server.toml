@@ -3,4 +3,8 @@
 [server]
 	#Whether items can be disenchanted. More vanilla like would be false
 	allowDisenchantingItems = true
+	#Whether incompatible enchantments can be allied together
+	allowMixtureEnchantments = false
+	#Define the max level for applying enchantments. Format is ["enchantment_id|maxlevel","enchantment_id|maxlevel"]
+	maxEnchantmentLevels = []
 

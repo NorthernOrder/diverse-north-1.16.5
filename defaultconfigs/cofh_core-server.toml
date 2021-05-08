@@ -35,3 +35,4 @@
 	#This option sets the growth factor for saplings - they will only grow 1 in N times.
 	#Range: > 1
 	"Sapling Growth Reduction Factor" = 4
+
