@@ -1,12 +1,110 @@
 # Diverse North - Changelog
 
+## 0.2.2
+
+**BACKUP YOUR WORLDS!!!**
+
+You may also want to reset your nether and end
+
+### Fixes
+
+Fixed tamed animal attacking behavior
+
+Fixed crash where an entity is holding a shield with a banner
+
+Temporary fix for a crash where an entity that is holding a flint and steel tries to light the player on fire
+
+Hopefully fixed Tetra's schematics crashing the game when they are dropped items
+
+Shrines Structures should now generate on servers
+
+### Changes
+
+Disabled recipes for Enchantment Machine, Simply Jetpacks and Angel ring
+
+Changed recipe for Travel Anchors
+
+### Mods
+
+Added:
+
+- FTB Ultimine
+- Spawner Bug Fix
+
+Updated:
+
+- Abnormals Delight (1.1.0 -> 1.1.1)
+- Advanced Shulkerboxes (1.0.2 -> 1.0.3)
+- Alex's Mobs (1.9.1 -> 1.10.0)
+- Apotheosis (4.5.1 -> 4.5.2)
+- Applied Energistics 2 (8.3.0-beta.2 -> 8.3.0)
+- Architectury API (1.12.145 -> 1.12.149)
+- Ars Nouveau (1.15.0 -> 1.15.1)
+- Autumnity (2.1.0 -> 2.1.1)
+- Block Swap (1.0.1 -> 1.1.1)
+- Citadel (1.6.2 -> 1.6.3)
+- Clumps (6.0.0.21 -> 6.0.0.22)
+- Create Crafts & Additions (20210422a -> 20210504a)
+- Cuneiform (1.2.4 -> 1.2.4.1)
+- Customizable Elytra (1.4.3 -> 1.4.4)
+- Desolation (1.0.5b -> 1.1.0-1)
+- Diet (0.26 -> 0.28)
+- Differentiate (0.4.1 -> 0.4.2)
+- Enigmatic Legacy (2.11.2 -> 2.11.4)
+- Farmer's Delight (0.4.1 -> 0.4.2)
+- FastSuite (1.0.0 -> 1.0.1)
+- FindMe (2.1.0.0 -> 2.2.0.0)
+- GeckoLib (3.0.31 -> 3.0.33)
+- Just Enough Calculation (3.6.4 -> 3.6.6)
+- Just Enough Items (7.6.4.87 -> 7.6.4.90)
+- Kiwi (3.5.0 -> 3.5.1)
+- Kotlin for Forge (1.11.1 -> 1.12.0)
+- KubeJS (1605.3.7-build.186 -> 1605.3.7-build.191)
+- LibX (1.0.59 -> 1.0.64)
+- Light Overlay (5.8.0 -> 5.8.1)
+- Mahou Tsukai (1.30.0 -> 1.30.4)
+- MineColonies (0.14.134 -> 0.14.152)
+- More Red (2.1.0.2 -> 2.1.0.3)
+- Occultism (1.0.18 -> 1.1.0)
+- Oh The Biomes You'll Go (1.2 -> 1.2.7)
+- Patchouli (50 -> 51)
+- Performant (3.54 -> 3.55)
+- Potion Descriptions (1.5.1 -> 1.5.2)
+- Repurposed Structures (2.6.5 -> 2.6.6)
+- RFTools Builder (3.0.16 -> 3.0.17)
+- RFTools Storage (2.0.11 -> 2.0.12)
+- Shrines Structures (1.7.0 -> 1.7.1)
+- Silent Gear (2.6.22 -> 2.6.23)
+- Sophisticated Backpacks (2.4.0.251 -> 2.4.0.259)
+- Spartan Shields (2.1.1 -> 2.1.2)
+- Structurize (0.13.169 -> 0.13.171)
+- Terra Incognita (1.6.4.1 -> 1.6.4.2)
+- Tetra (3.9.1 -> 3.10.0)
+- The Bumblezone (2.4.1 -> 2.4.2)
+- Tiny Redstone (1.6.3 -> 1.7.2b)
+- Trash Cans (1.0.9 -> 1.0.10)
+- U Team Core (3.2.0.194 -> 3.2.1.195)
+- Useful Railroads (1.4.6.36 -> 1.4.6.37)
+- V-Tweaks (3.4.2 -> 3.5.0)
+- Xaero's Minimap (21.7.0 -> 21.8.0)
+- Xaero's World Map (1.13.3 -> 1.13.4)
+- XNet (3.0.11 -> 3.0.12)
+
+Removed:
+
+- Vein Mining
+
 ## 0.2.1
+
+### Changes
 
 Changed position of dropoff buttons
 
 Disabled inventory tweaks' sort buttons
 
 Enabled Forge's experimental light pipeline for refined storage
+
+### Mods
 
 Removed:
 
@@ -17,9 +115,13 @@ Removed:
 
 ## 0.2.0
 
+### Changes
+
 Disabled duplicate ore generation
 
 Some other smaller config changes
+
+### Mods
 
 Added:
 
@@ -114,6 +216,8 @@ Removed:
 
 ## 0.1.0
 
+### Changes
+
 Went through all mod configs
 
 Changed recipes for coins
@@ -123,6 +227,8 @@ Added custom window title
 Added custom window icon
 
 Custom starting items
+
+### Mods
 
 Added:
 
