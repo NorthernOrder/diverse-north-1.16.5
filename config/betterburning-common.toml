@@ -16,7 +16,7 @@
 	#Range: 0.0 ~ 1.0
 	flameArrowSkeletonChance = 0.7
 	#Should flint and steel deal fire damage when used as a weapon?
-	ShouldFlintAndSteelDoFireDamage = true
+	ShouldFlintAndSteelDoFireDamage = false
 	#How much fire damage should flint and steel do?
 	#Range: > 0
 	flintAndSteelFireDamage = 3
@@ -32,4 +32,3 @@
 	punchOutFlames = true
 	#Can players put out fire with bottled water?
 	extinguishWithBottledWater = true
-
