@@ -18,6 +18,9 @@
 	#Should the lumbering enchantment be strict about wood types?
 	#e.g. if you're in a forest with mixed woods touching, should lumbering only break the same type of wood that was initially broken?
 	lumberingIsStrictAboutWood = true
+	#The maximum amount of logs lumbering can destroy
+	#Range: > 1
+	maxLumberCount = 1024
 
 #Mob Tweaks
 ["mob tweaks"]
@@ -26,8 +29,6 @@
 	#If set to "OWNER", this will prevent owners of pets from attacking their own pet. If set to "ALL", this prevents all players from attacking anyone's pet
 	#Allowed Values: DISABLED, OWNER, ALL
 	disablePetFriendlyFire = "DISABLED"
-	#If enabled, all bees will always be half the size they are in Vanilla. Does not affect breeding or hitboxes
-	enableSmallBees = false
 	#Allows chicken feathers to be plucked w/ shears
 	enableFeatherPlucking = true
 	#Randomly spawns more difficult (but more lootworthy) enemies.
@@ -62,6 +63,11 @@
 	enableCakeDrop = true
 	#Fixes some tools NOT being effective on certain materials
 	enableToolEffTweaks = true
+	#Trees fall down (like, actually not just like lumbering). Credit to Tersnip's impl (oitsjustjo.se/u/5cCfruy1x)
+	enableTreeChopDown = false
+	#The number of logs above the one broken to trigger the chopdown effect
+	#Range: > 1
+	chopDownLogRequirement = 3
 
 #Item Tweaks
 ["item tweaks"]
@@ -99,3 +105,4 @@
 	enableGuideNotifier = false
 	#Makes all anvil tool repairs always cost 1 level of XP
 	enableCheapAnvilRepair = true
+
