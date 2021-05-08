@@ -1,7 +1,7 @@
 // priority: 0
 
-onEvent('jei.hide.items', event => {
-	event.hide(/appliedenergistics2:facade/);
+onEvent("jei.hide.items", (event) => {
+  event.hide(/appliedenergistics2:facade/);
   event.hide(/refinedstorage:(?!.*(pattern|crafting|fluid)).*_grid/);
   event.hide(/refinedstorage:.+_pattern_grid/);
   event.hide(/refinedstorage:.+_crafting_grid/);
@@ -18,8 +18,11 @@ onEvent('jei.hide.items', event => {
   event.hide(/refinedstorage:.+_crafter/);
   event.hide(/refinedstorage:.+_crafter_manager/);
   event.hide(/refinedstorage:.+_crafting_monitor/);
-})
+  event.hide(/enchantmentmachine/);
+  event.hide(/doomangelring/);
+  event.hide(/simplyjetpacks/);
+});
 
-events.listen('jei.add.items', function (event) {
-  event.add(Item.of('appliedenergistics2:facade', {item:"minecraft:stone"}));
+events.listen("jei.add.items", function (event) {
+  event.add(Item.of("appliedenergistics2:facade", { item: "minecraft:stone" }));
 });
